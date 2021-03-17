@@ -13,10 +13,10 @@ import java.util.Scanner;
 
 public class Ejercicio_02 {
 
-    public static PrintStream show = System.out;
+
     public static Scanner scan = new Scanner(System.in);
 
-    public static void resolverEjercicio_02() {
+    public static void rtaEjercicio_02() {
         scan.reset();
 
         int X = 50;
@@ -24,19 +24,19 @@ public class Ejercicio_02 {
         double N = 15.7;
         double M = 25.5;
 
-        show.println("  -------------------");
-        show.println(" |   Ejercicio 02.   |");
-        show.println("  -------------------");
-        show.println("\n");
+        System.out.println("  -------------------");
+        System.out.println(" |   Ejercicio 02.   |");
+        System.out.println("  -------------------");
+        System.out.println("\n");
 
-        show.printf("El valor de 'X' es: %s\n",X);
-        show.printf("El valor de 'Y' es: %s\n",Y);
-        show.printf("El valor de 'N' es: %s\n",N);
-        show.printf("El valor de 'M' es: %s\n",M);
-        show.println("\n");
-        show.printf("La suma entre (N + M) es: %s\n",N + M);
-        show.printf("La diferencia entre (M-N) es: %s\n",M - N);
-        show.printf("El cociente entre (X / N) es: %s\n",X / N);
-        show.printf("El producto entre (X * Y) es: %s\n",X * Y);
+        System.out.printf("El valor de 'X' es: %s\n",X);
+        System.out.printf("El valor de 'Y' es: %s\n",Y);
+        System.out.printf("El valor de 'N' es: %s\n",N);
+        System.out.printf("El valor de 'M' es: %s\n",M);
+        System.out.println("\n");
+        System.out.printf("La suma entre (N + M) es: %s\n",N + M);
+        System.out.printf("La diferencia entre (M-N) es: %s\n",M - N);
+        System.out.printf("El cociente entre (X / N) es: %s\n",X / N);
+        System.out.printf("El producto entre (X * Y) es: %s\n",X * Y);
     }
 }

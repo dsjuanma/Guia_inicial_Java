@@ -13,10 +13,9 @@ import java.util.Scanner;
 
 public class Ejercicio_04 {
 
-    public static PrintStream show = System.out;
-    public static Scanner scan = new Scanner(System.in);
+       public static Scanner scan = new Scanner(System.in);
 
-    public static void resolverEjercicio_04() {
+    public static void rtaEjercicio_04() {
         scan.reset();
 
         int A = 5;
@@ -26,16 +25,16 @@ public class Ejercicio_04 {
         int aux = 0;
 
 
-        show.println("  -------------------");
-        show.println(" |   Ejercicio 04.   |");
-        show.println("  -------------------");
-        show.println("\n");
+        System.out.println("  -------------------");
+        System.out.println(" |   Ejercicio 04.   |");
+        System.out.println("  -------------------");
+        System.out.println("\n");
 
-        show.printf("El valor de 'A' es: %s\n",A);
-        show.printf("El valor de 'B' es: %s\n",B);
-        show.printf("El valor de 'C' es: %s\n",C);
-        show.printf("El valor de 'D' es: %s\n",D);
-        show.println("\n");
+        System.out.printf("El valor de 'A' es: %s\n",A);
+        System.out.printf("El valor de 'B' es: %s\n",B);
+        System.out.printf("El valor de 'C' es: %s\n",C);
+        System.out.printf("El valor de 'D' es: %s\n",D);
+        System.out.println("\n");
 
         aux = B;
         B = C;
@@ -43,9 +42,9 @@ public class Ejercicio_04 {
         A = D;
         D=aux;
 
-        show.printf("El valor de 'A' ahora es: %s\n",A);
-        show.printf("El valor de 'B' ahora es: %s\n",B);
-        show.printf("El valor de 'C' ahora es: %s\n",C);
-        show.printf("El valor de 'D' ahora es: %s\n",D);
+        System.out.printf("El valor de 'A' ahora es: %s\n",A);
+        System.out.printf("El valor de 'B' ahora es: %s\n",B);
+        System.out.printf("El valor de 'C' ahora es: %s\n",C);
+        System.out.printf("El valor de 'D' ahora es: %s\n",D);
     }
 }

@@ -13,22 +13,22 @@ import java.util.Scanner;
 
 public class Ejercicio_03 {
 
-    public static PrintStream show = System.out;
+
     public static Scanner scan = new Scanner(System.in);
 
-    public static void resolverEjercicio_03() {
+    public static void rtaEjercicio_03() {
         scan.reset();
 
         int N = 63;
 
-        show.println("  -------------------");
-        show.println(" |   Ejercicio 03.   |");
-        show.println("  -------------------");
-        show.println("\n");
+        System.out.println("  -------------------");
+        System.out.println(" |   Ejercicio 03.   |");
+        System.out.println("  -------------------");
+        System.out.println("\n");
 
-        show.printf("El valor de 'N' es: %s\n",N);
-        show.printf("El valor de 'N + 77' es: %s\n",N + 77);
-        show.printf("El valor de 'N - 3' es: %s\n",N - 3);
-        show.printf("El doble del valor de 'N' es: %s\n",N * 2);
+        System.out.printf("El valor de 'N' es: %s\n",N);
+        System.out.printf("El valor de 'N + 77' es: %s\n",N + 77);
+        System.out.printf("El valor de 'N - 3' es: %s\n",N - 3);
+        System.out.printf("El doble del valor de 'N' es: %s\n",N * 2);
     }
 }
