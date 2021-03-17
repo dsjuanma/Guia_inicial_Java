@@ -19,7 +19,7 @@ public class Main {
                     Pausa.pausar();
                     limpiarPantalla();
                     break;
-               /* case 2:
+                case 2:
                     Ejercicio_02.resolverEjercicio_02();
                     Pausa.pausar();
                     limpiarPantalla();
@@ -33,7 +33,7 @@ public class Main {
                     Ejercicio_04.resolverEjercicio_04();
                     Pausa.pausar();
                     limpiarPantalla();
-                    break;
+                    break;/*
                 case 5:
                     Ejercicio_05.resolverEjercicio_05();
                     Pausa.pausar();
